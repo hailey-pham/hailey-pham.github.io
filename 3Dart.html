@@ -74,6 +74,34 @@
         opacity:0.5;
     }
 
+    .navbar {
+        overflow: hidden;
+        background-color: #3805BC;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        left: 0;
+        width: 100%; /* Full width */
+        z-index:2;
+    }
+
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 30px 40px;
+        text-decoration: none;
+        font-family: KiwiSoda;
+        font-size: 40px;
+    }
+
+    /* Change background on mouse-over */
+    .navbar a:hover {
+        background: #6A2CE5;
+        color: #f0d25b;
+    }
+
 
     
 </style>
@@ -88,18 +116,26 @@
         
         
 
-        <!-- BLACK OUTLINE -->
+        <!-- BLACK OUTLINE
 
         <div style = "position:absolute; left:30px; top:10px;">
             <h1 style="color:black;">3D Art</h1>
         </div>
 
-        <!-- TITLE TEXT -->
-        <a href="index.html">
+        TITLE TEXT -->
+        <!-- <a href="index.html">
         <div style = "position:absolute; left:-2px; top:5px;">
             <h1 style="color:white;"><button class="button button1">3D Art</button></h1>
         </div>
-        </a>
+        </a> -->
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="digitalArt.html">Digital Art</a>
+            <a href="3Dart.html">3D Art</a>
+            <a href="about.html">About</a>
+        </div>
 
 
         <div style = "position:absolute; left:0px; top:150px">
