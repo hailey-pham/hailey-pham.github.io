@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "name": "Personal Website",
+            "summary": "My portfolio website, the very website you're on right now! Created with Vue3 and Tailwind using HTML, CSS, and  JavaScript.",
+            "thumbnail": "PersonalWebsite/image.png",
+            "date": "Fall 24",
+            "url": "PersonalWebsite",
+            "index": "0"
+        },
+        
+        {
+            "name": "Through The Window",
+            "summary": "An infinite runner about the little guy who runs with your car.",
+            "thumbnail": "ThroughTheWindow/TTWThumbnail.png",
+            "date": "Fall 24",
+            "url": "ThroughTheWindow",
+            "index": "1"
+        },
+        {
+            "name": "Early Morning",
+            "summary": "A small environment to explore.",
+            "thumbnail": "EarlyMorning/EarlyMorning.png",
+            "date": "Fall 24",
+            "url": "EarlyMorning",
+            "index": "2"
+        },
+        {
+            "name": "Disastore",
+            "summary": "A convenience store tycoon game set in Japan. Made in the Godot engine using C#.",
+            "thumbnail": "Disastore/DisastoreThumbnail.png",
+            "date": "Summer 24",
+            "url": "Disastore",
+            "index": "3"
+        },
+        {
+            "name": "Nutrition Nexus",
+            "summary": "A program that gives you helpful recipes based on your dietary restrictions and food preferences. Made in C++ using the React framework.",
+            "thumbnail": "NutritionNexus/image.png",
+            "date": "Spring 24",
+            "url": "NutritionNexus",
+            "index": "4"
+        },
+        {
+            "name": "BunQuest",
+            "summary": "A slice of life turn-based rpg.",
+            "thumbnail": "BunQuest/image.png",
+            "date": "Summer 23",
+            "url": "BunQuest",
+            "index": "5"
+        }
+    ]
+}
