@@ -16,7 +16,7 @@ import TheWelcome from '../components/TheWelcome.vue'
     <div class="flex flex-row ">
         <div>
                 <div class="h-[30vh] w-[55vh] left-[2vw] mx-10">
-                <img src="/PersonalWebsite/image.png" class="absolute object-cover h-[30vh] w-[55vh] shadow-innerxl">
+                <img src="/PersonalWebsite/home.png" class="absolute object-cover h-[30vh] w-[55vh] shadow-innerxl">
                 <div class ="h-[30vh] w-[55vh] absolute opacity-50 shadow-xl z-[50]"></div>
             </div>
 
@@ -26,7 +26,7 @@ import TheWelcome from '../components/TheWelcome.vue'
             </div>
 
             <div class="h-[30vh] w-[55vh] left-[2vw] m-10">
-                <img src="/PersonalWebsite/image.png" class="absolute object-cover h-[30vh] w-[55vh] shadow-innerxl">
+                <img src="/PersonalWebsite/contact.png" class="absolute object-cover h-[30vh] w-[55vh] shadow-innerxl">
                 <div class ="h-[30vh] w-[55vh] absolute opacity-50 shadow-xl z-[50]"></div>
             </div>
         </div>
