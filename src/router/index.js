@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import ProjectsView from '../views/ProjectsView.vue'
-import PersonalWebsite from '../views/PersonalWebsite.vue'
-import ThroughTheWindow from '../views/ThroughTheWindow.vue'
-import EarlyMorning from '../views/EarlyMorning.vue'
-import Disastore from '../views/Disastore.vue'
-import NutritionNexus from '../views/NutritionNexus.vue'
-import BunQuest from '../views/BunQuest.vue'
+import HomeView from '@/views/HomeView.vue'
+import ProjectsView from '@/views/ProjectsView.vue'
+import PersonalWebsite from '@/views/PersonalWebsite.vue'
+import ThroughTheWindow from '@/views/ThroughTheWindow.vue'
+import EarlyMorning from '@/views/EarlyMorning.vue'
+import Disastore from '@/views/Disastore.vue'
+import NutritionNexus from '@/views/NutritionNexus.vue'
+import BunQuest from '@/views/BunQuest.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
